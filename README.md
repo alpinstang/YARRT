@@ -1,6 +1,6 @@
-# Getting Started with Create React App
+# YetAnotherReactReduxTemplate _now with more Firebase_
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A boilerplate/template for starting new React applications with Redux state management and Firebase user authentication. Simple enough to replace Firebase authentication with your own provider if you choose. Ready to deploy to gh-pages.
 
 ## Available Scripts
 
@@ -39,32 +39,22 @@ Instead, it will copy all the configuration files and the transitive dependencie
 
 You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
 
-## Learn More
+### `yarn deploy`
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+Runs the build script, then deploys that build to your gh-pages branch in your repository.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+`yarn predeploy` should not be run on its own (although it won't hurt anything), because any script with the 'pre' prefix will execute before the script of the same name without a prefix.
 
-### Code Splitting
+_Example `deploy`_
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+```
+yarn deploy
+// executes yarn build as defined in predeploy
+// executes gh-pages -d build as defined in deploy
+```
 
-### Analyzing the Bundle Size
+Credits:
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+- Bootstrapped with create-react-app
+- Images provided by [placekitten](https://placekitten.com/)
+- Text provided by [Cat Ipsum](http://www.catipsum.com/)
