@@ -1,0 +1,16 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans+Condensed:wght@300&display=swap");
+@import "./_variables";
+
+body {
+  font-family: "Open Sans Condensed", sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  color: black;
+  background-color: white;
+  box-sizing: content-box;
+  margin: 0 auto;
+}
+
+.site-wrapper {
+  // padding: 0 50px;
+}
