@@ -2,6 +2,8 @@
 
 A boilerplate/template for starting new React applications with Redux state management and Firebase user authentication. Simple enough to replace Firebase authentication with your own provider if you choose. Ready to deploy to gh-pages.
 
+![screnshot of yarrt](https://live.staticflickr.com/65535/50833536347_dff230d783_b.jpg =400x)
+
 ## Available Scripts
 
 In the project directory, you can run:
