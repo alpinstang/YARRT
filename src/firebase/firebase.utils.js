@@ -3,13 +3,6 @@ import "firebase/firestore";
 import "firebase/auth";
 
 const config = {
-  apiKey: "AIzaSyCB5CulPMCcyEo6wdyIEmfJYemZlE2hiP8",
-  authDomain: "rssdio.firebaseapp.com",
-  projectId: "rssdio",
-  storageBucket: "rssdio.appspot.com",
-  messagingSenderId: "768516273959",
-  appId: "1:768516273959:web:bdc737a4562a79e8e61b02",
-  measurementId: "G-RE199M8Y4E",
   //
   // PUT YOUR CONFIG HERE
   //
